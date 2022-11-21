@@ -1,0 +1,19 @@
+Index: src/com/pm/C2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.pm;\r\n\r\npublic class C2 {\r\n    public void m1(int x){\r\n        for(int i=0;1<x;i++)\r\n            System.out.println(\"Kialammm\");\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/pm/C2.java b/src/com/pm/C2.java
+--- a/src/com/pm/C2.java	(revision c16e53961196094881bf29971b8c466674d56fcf)
++++ b/src/com/pm/C2.java	(date 1669071603432)
+@@ -3,7 +3,7 @@
+ public class C2 {
+     public void m1(int x){
+         for(int i=0;1<x;i++)
+-            System.out.println("Kialammm");
++            System.out.println("Kialm");
+     }
+ }
+ 
