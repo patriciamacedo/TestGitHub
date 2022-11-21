@@ -6,7 +6,8 @@ public class Main {
 
 
 
-
+      C1 c1=new C1();
+      c1.m1(4);
 
         System.out.println("HELLO");
     }
